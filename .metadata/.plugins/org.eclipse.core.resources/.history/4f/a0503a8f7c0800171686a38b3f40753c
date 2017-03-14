@@ -1,0 +1,26 @@
+package mypackage;
+
+public enum myEnum {
+
+	ONE
+	   {
+	      @Override
+	      public int getSomething() {
+	         return 1;
+	      } 
+	   },
+
+	   TWO
+	   {
+	      @Override
+	      public int getSomething() {
+	        return 2;
+	      }
+	   }
+
+	   int getSomething()
+	   {
+	      return 0;
+	   }
+
+}

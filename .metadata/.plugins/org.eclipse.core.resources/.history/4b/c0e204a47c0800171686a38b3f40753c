@@ -1,0 +1,14 @@
+package mypackage;
+
+public enum myEnum {
+	ONE("a","b","c") {
+		@Override
+		public boolean do1(String option)
+		{
+			return super.do1(option);
+		}
+	}
+	
+	
+
+}

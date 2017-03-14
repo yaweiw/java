@@ -1,0 +1,17 @@
+import mypackage.*;
+
+public final class mainClass {
+
+	public static void main(String[] args) {
+		// 
+		myClass c = new myClass("joe");
+		for(int i=1; i<2; i++){
+			System.out.println(i + " time: " + c.dosomething());
+			}
+		System.out.println(myEnum.ONE);
+		System.out.println(myEnum.TWO);
+		}
+	
+	
+	
+}

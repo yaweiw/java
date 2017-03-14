@@ -1,0 +1,20 @@
+package mypackage;
+
+@interface Author {
+	String author() default "yaweiw";
+	}
+
+@Author(author = "yawei")
+public class myClass implements ImyClass {
+	private String _name;
+	
+	public myClass(String name) {
+		_name = name;
+	}
+
+	
+	public String dosomething() {
+		return _name + " is doing something";
+	}
+
+}

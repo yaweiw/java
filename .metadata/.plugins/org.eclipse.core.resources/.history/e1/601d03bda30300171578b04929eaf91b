@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package mypackage;
+
+/**
+ * @author yaweiw
+ *
+ */
+public interface ImyClass {
+
+}

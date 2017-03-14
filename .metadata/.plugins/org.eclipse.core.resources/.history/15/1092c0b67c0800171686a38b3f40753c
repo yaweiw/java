@@ -1,0 +1,19 @@
+package mypackage;
+
+public enum myEnum {
+	ONE("a","b","c") {
+		@Override
+		public boolean do1(String option)
+		{
+			return super.do1(option);
+		}
+	}
+	
+	
+    myEnum(String s1, String s2, String s3) {
+        this(text, null, descrKey, kind, group, null, null, false);
+    }
+	
+	
+
+}

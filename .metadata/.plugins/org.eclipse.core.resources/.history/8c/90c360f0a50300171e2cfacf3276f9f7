@@ -1,0 +1,12 @@
+import mypackage.*
+
+public final class main {
+
+	public static void main(String[] args) {
+		// 
+		myClass c = new myClass("joe");
+		System.out.println(c.dosomething());
+
+	}
+
+}

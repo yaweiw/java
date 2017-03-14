@@ -1,0 +1,38 @@
+package mypackage;
+
+public enum myEnum {
+	ONE("a","b","c") {
+		@Override
+		public boolean do1(String option)
+		{
+			return super.do1(option);
+		}
+	}
+	
+	String str1;
+	String str2;
+	String str3;
+	String str4; 
+	
+	
+	
+    myEnum(String s1, String s2, String s3) {
+        this(s1, s2, s3, false);
+    }
+    
+    private myEnum(String s1, String s2, String s3, boolean p4) {
+    	this.str1 = s1;
+    	this.str2 = s2;
+    	this.str3 = s3;
+    	this.str4 = p4 ? "T" : "F";
+    }
+    
+    public boolean do1(String option)
+    {
+    	return this.str1+this.str2+this.str3+this.str4+option;
+    }
+    }
+	
+	
+
+}

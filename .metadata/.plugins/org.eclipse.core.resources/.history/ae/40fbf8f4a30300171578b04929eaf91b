@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package mypackage;
+
+/**
+ * @author yaweiw
+ *
+ */
+public class myClass implements ImyClass {
+	private String name;
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String dosomething() {
+		System.out.println("Hello, world!");
+	}
+
+}

@@ -1,0 +1,14 @@
+import mypackage.*;
+
+public final class mainClass {
+
+	public static void main(String[] args) {
+		// 
+		myClass c = new myClass("joe");
+		for(int i = 0;i++;i<10)
+		{
+		System.out.println(c.dosomething());
+		}
+	}
+
+}

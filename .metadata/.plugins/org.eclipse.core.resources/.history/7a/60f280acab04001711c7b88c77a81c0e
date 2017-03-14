@@ -1,0 +1,17 @@
+import mypackage.*;
+
+public final class mainClass {
+
+	public static void main(String[] args) {
+		// 
+		myClass c = new myClass("joe");
+		for(int i=1; i<11; i++){
+            System.out.println("Count is: " + i);
+       }
+
+		{
+		System.out.println(c.dosomething());
+		}
+	}
+
+}
